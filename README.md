@@ -1,5 +1,7 @@
 # RealDealApi
 
+This code is based on a tutorial series by Elixir Mentor: https://www.youtube.com/playlist?list=PL2Rv8vpZJz4zM3Go3X-dda478p-6xrmEl
+
 To start your Phoenix server:
 
   * Run `mix setup` to install and setup dependencies
