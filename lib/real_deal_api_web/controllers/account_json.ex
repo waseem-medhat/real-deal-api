@@ -11,8 +11,8 @@ defmodule RealDealApiWeb.AccountJSON do
   @doc """
   Renders a single account.
   """
-  def show(%{account: account}) do
-    %{data: data(account)}
+  def show(%{account: account, token: token}) do
+    %{account: data(account), token: token}
   end
 
   defp data(%Account{} = account) do
